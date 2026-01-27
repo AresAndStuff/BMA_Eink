@@ -1,0 +1,29 @@
+# Node / e-ink-dashboard
+e-ink-dashboard/node_modules/
+e-ink-dashboard/npm-debug.log*
+e-ink-dashboard/yarn-debug.log*
+e-ink-dashboard/yarn-error.log*
+
+# Uploads / generierte Assets
+e-ink-dashboard/dashboard_uploads/
+e-ink-dashboard/*.png
+
+# Konfiguration & Secrets
+e-ink-dashboard/google_token.json
+e-ink-dashboard/dashboard_settings.json
+e-ink-dashboard/.env*
+e-ink-dashboard/*token*.json
+
+# Zertifikate / Keys
+e-ink-dashboard/*.pem
+e-ink-dashboard/*.key
+
+# Allgemein
+.DS_Store
+Thumbs.db
+
+# Arduino / ESP
+esp_client/build/
+esp_client/*.bin
+esp_client/*.elf
+esp_client/*.hex
