@@ -19,8 +19,8 @@ static constexpr uint64_t SLEEP_TIME_US = SLEEP_MINUTES * 60ULL * uS_TO_S_FACTOR
 // =========================
 // Wi-Fi config
 // =========================
-const char* WIFI_SSID = "Sunrise_8051598";
-const char* WIFI_PASS = "danV5sgafxjs9teD";
+const char* WIFI_SSID = "";
+const char* WIFI_PASS = "";
 
 // =========================
 // Discovery config
